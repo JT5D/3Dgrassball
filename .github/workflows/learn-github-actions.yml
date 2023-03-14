@@ -15,9 +15,9 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::567155699759:role/DeployRole
           aws-region: us-east-2
-          permissions:
-            id-token: write
-            contents: read
+        permissions:
+          id-token: write
+          contents: read
 #       - uses: sourcetoad/aws-codedeploy-action@v1
 #         with:
 #           codedeploy_name: project
