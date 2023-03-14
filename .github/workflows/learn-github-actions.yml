@@ -17,7 +17,7 @@ jobs:
       - uses: aws-actions/configure-aws-credentials@master
         with:
           role-to-assume: arn:aws:iam::567155699759:role/DeployRole
-          aws-region: us-east-2
+          aws-region: us-east-1
 #       - uses: sourcetoad/aws-codedeploy-action@v1
 #         with:
 #           codedeploy_name: project
