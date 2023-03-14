@@ -1,6 +1,8 @@
 name: Configure AWS Credentials For GitHub Actions
 uses: aws-actions/configure-aws-credentials@v2
-
+      with:
+        role-to-assume: arn:aws:iam::123456789100:role/my-github-actions-role
+        aws-region: us-east-2
 on:
   workflow_dispatch:
     # Inputs the workflow accepts.
