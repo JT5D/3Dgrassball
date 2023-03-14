@@ -14,6 +14,7 @@
     "lamina": "^1.1.8",
     "leva": "^0.9.23",
     "node": "19.6.1",
+    "nodejs": "0.0.0",
     "perlin.js": "^1.0.0",
     "postprocessing": "^6.26.2",
     "react": "18.0.0",
@@ -22,7 +23,8 @@
     "react-scripts": "5.0.0",
     "three": "0.138.3",
     "three-custom-shader-material": "3.2.11",
-    "three-noise": "1.1.2"
+    "three-noise": "1.1.2",
+    "validate-npm-package-license": "3.0.4"
   },
   "devDependencies": {},
   "scripts": {
