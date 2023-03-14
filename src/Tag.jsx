@@ -1,5 +1,5 @@
-//import { Logo } from '@pmndrs/branding'
-//import { FaGithub } from 'react-icons/fa'
+import { Logo } from '@pmndrs/branding'
+import { FaGithub } from 'react-icons/fa'
 
 export default function Tag() {
   return (
@@ -13,7 +13,7 @@ export default function Tag() {
       <span>
         Made with 🧡 by{' '}
         <a target="_blank" href="https://twitter.com/TheIMCLab">
-          Faraz Shaikh
+          JT5D
         </a>
       </span>
 
