@@ -11,7 +11,7 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
-      - uses: aws-actions/configure-aws-credentials@v1
+      - uses: aws-actions/configure-aws-credentials@v2
         with:
           role-to-assume: arn:aws:iam::567155699759:role/DeployRole
           aws-region: us-east-2
