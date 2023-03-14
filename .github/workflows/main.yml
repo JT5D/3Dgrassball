@@ -1,3 +1,5 @@
+name: AWS conf
+
 on:
   workflow_dispatch:
     # Inputs the workflow accepts.
