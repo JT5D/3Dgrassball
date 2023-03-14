@@ -4,7 +4,6 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "private": true,
   "dependencies": {
     "@gsimone/suzanne": "0.0.12",
     "@pmndrs/branding": "0.0.8",
