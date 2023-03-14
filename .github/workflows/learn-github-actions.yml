@@ -11,17 +11,13 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
-
-- name: Configure AWS Credentials
-  uses: aws-actions/configure-aws-credentials@v1
-  with:
-    role-to-assume: arn:aws:iam::123456789100:role/my-github-actions-role
-    aws-region: us-east-2
-
-- name: AWS CodeDeploy
-  uses: sourcetoad/aws-codedeploy-action@v1
-  with:
-    codedeploy_name: project
-    codedeploy_group: prod
-    s3_bucket: project-codedeploy
-    s3_folder: production
+      - uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: arn:aws:iam::567155699759:role/DeployRole
+          aws-region: us-east-2
+#       - uses: sourcetoad/aws-codedeploy-action@v1
+#         with:
+#           codedeploy_name: project
+#           codedeploy_group: prod
+#           s3_bucket: project-codedeploy
+#           s3_folder: production
