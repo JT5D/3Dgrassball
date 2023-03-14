@@ -11,7 +11,7 @@
     "@react-three/fiber": "8.0.8",
     "@react-three/postprocessing": "^2.2.6",
     "gl-noise": "1.6.1",
-    "lamina": "^1.1.8",
+    "lamina": "1.1.23",
     "leva": "^0.9.23",
     "node": "19.6.1",
     "nodejs": "0.0.0",

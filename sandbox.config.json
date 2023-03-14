@@ -1,6 +1,6 @@
 {
   "infiniteLoopProtection": false,
-  "hardReloadOnChange": false,
+  "hardReloadOnChange": true,
   "view": "browser",
   "disableLogging": false
 }
