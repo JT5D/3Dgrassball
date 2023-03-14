@@ -4,6 +4,9 @@ on: [push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -15,9 +18,6 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::567155699759:role/DeployRole
           aws-region: us-east-2
-        permissions:
-          id-token: write
-          contents: read
 #       - uses: sourcetoad/aws-codedeploy-action@v1
 #         with:
 #           codedeploy_name: project
